@@ -1,0 +1,44 @@
+// Categories
+
+.categoryList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .itemOne{
+        background-color: $quinary;
+    }
+    .itemTwo{
+        background-color: $secondary;
+    }
+    .itemThree{
+        background-color: $tertiary;
+    }
+    .itemFour{
+        background-color: $quaternary;
+    }
+    // List Item Styles Here
+    .items {
+        border-radius: 10%;
+        width: calc( 45% - 50px );
+        margin: 50px 25px 25px;
+        padding: 40px;
+        text-align: center;
+        transition: 0.3s;
+        // Img Styles Here
+        img{
+            border-radius: 10%;
+            margin-bottom: 15px;
+        }
+        &:hover{
+            transform: scale(0.90);
+        }
+    }
+}
+
+
+
+
+
+
+
+// Let Them Play
