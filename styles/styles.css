@@ -360,6 +360,20 @@ section {
   border-radius: 15%;
 }
 
+.darkModeStyle .navBar {
+  background-color: black;
+  color: gray;
+}
+
+.darkModeStyle .footer {
+  background-color: black;
+}
+
+.darkModeStyle .textContainer {
+  background-color: black;
+  color: gray;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
